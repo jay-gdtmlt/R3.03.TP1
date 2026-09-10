@@ -6,11 +6,12 @@ import org.junit.jupiter.api.Test;
 
 
 public class AddTest {
-    @Testvoid testAdd() {
+    @Test
+    void testAdd() {
         float a, b, sum;
         a = 3;
         b = 8;
-        sum = add(a, b);
+        sum = Add.add(a, b);
         assertEquals((a+b), sum);
     }
 }
