@@ -4,7 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe de Test de la classe Sub
+ */
 public class SubTest {
+    
+    /**
+     * Test le résultat de 5 - 3
+     */
     @Test
     void testSub() {
         float a = 5;
